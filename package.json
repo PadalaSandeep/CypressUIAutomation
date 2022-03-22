@@ -1,0 +1,15 @@
+{
+  "name": "cypressUiAutomation",
+  "version": "1.0.0",
+  "description": "This project makes UI automation more simple and relaibale using cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
+}
