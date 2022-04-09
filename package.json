@@ -6,9 +6,6 @@
   "scripts": {
     "cleanReport": "rm -R -f cypress/reports && cypress/screenshots",
     "scripts": "cypress run",
-    "combine-reports": "mochawesome-merge mochawesome-report/*.json > cypress/reports/mochareports/report.json",
-    "generate-report": "marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports -- inline",
-    "posttest": "npm run combine-reports && npm run generate-report",
     "test": "npm run scripts"
   },
   "keywords": [],
