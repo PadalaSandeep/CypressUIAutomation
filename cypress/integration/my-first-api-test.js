@@ -7,5 +7,6 @@ it('Get users', function(){
    }).then((response)=>{
        console.log(response)
        expect(response.status).to.eq(200)
+       expect(response.body).
    })
 })
